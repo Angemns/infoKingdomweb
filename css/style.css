@@ -42,6 +42,7 @@ header {
 }
 
 .wrapper {
+    display: flex;
     width: 90%;
     max-width: 1000px;
     margin: auto;
@@ -53,10 +54,10 @@ header .logo{
     font-size: 80px;
     line-height: 90px;
     text-align: center;
-    padding: 100px 50px 0 0;
     float: left;
     font-weight: bold;
-}
+    justify-content: center;
+    }
 
 nav .wrapper{
     float: right;
@@ -74,6 +75,7 @@ nav > a{
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
     border-radius: 50px;
+    justify-content: right;
 }
 
 nav > a:hover{
@@ -104,6 +106,27 @@ header .textos-header{
     bottom: 0;
     width: 100%;
     
+}
+
+.sidebar {
+    height: 100%;
+    width: 150px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 40px;
+    background-color: rgb(12, 12, 12);
+}
+
+.sidebar div {
+    padding: 8px;
+    font-size: 24px;
+    display: block;
+}
+
+.body-text {
+    margin-left: 150px;
+    font-size: 18px;
 }
 
 /* About us */
