@@ -81,15 +81,16 @@ nav > a:hover{
     text-decoration: underline;
 }
 
-header .textos-header.wrapper{
-    display: inline-block;
-    line-height: normal;
+header .textos-header{
     height: 200px;
     width: 110%;
+    position: absolute;
+    top: 50%;
+    left: 20%;
 }
 
 .textos-header h1{
-    font-size: 30px;
+    font-size: 20px;
     color:#fff;
 }
 
