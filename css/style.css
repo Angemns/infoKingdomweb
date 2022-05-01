@@ -105,23 +105,34 @@ header .textos-header{
     position: absolute;
     bottom: 0;
     width: 100%;
-    
 }
 
-.sidebar {
-    height: 100%;
-    width: 150px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    padding-top: 40px;
-    background-color: rgb(12, 12, 12);
+.logoimage{
+    display: flex;
+    margin-bottom: 130px;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
 }
-
-.sidebar div {
-    padding: 8px;
-    font-size: 24px;
-    display: block;
+.logo-img
+{
+    display: flex;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 400px;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right), url(/Images/img/LOGOWEB-\ 500x500.png);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right), url(/Images/img/LOGOWEB-\ 500x500.png);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .body-text {
