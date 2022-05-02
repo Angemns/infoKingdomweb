@@ -147,7 +147,10 @@ header .textos-header{
 }
 
 /* About us */
-
+body{
+    background-color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 main .sobre-nosotros{
     padding: 30px 0 60px 0;
@@ -169,23 +172,27 @@ main .sobre-nosotros{
     margin-bottom: 15px;
 }
 
+.contenido-textos h2 span
+
 .contenido-textos h3 span{
     background: #4d0686;
     color: #fff;
     border-radius: 50%;
     display: inline-block;
     text-align: center;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     padding: 2px;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
     margin-right: 5px;
+    font-size: 30px;
 }
 
 .contenido-textos p{
     padding: 0px 0px 30px 15px;
     font-weight: 300;
     text-align: justify;
+    font-size: 20px;
 }
 
 /* Galeria */
